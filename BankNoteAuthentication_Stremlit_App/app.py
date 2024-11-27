@@ -12,6 +12,7 @@ with open('./model/classifier.pkl','rb') as pickle_in:
 def predict(variance,skewness,curtosis,entropy):
     return clf.predict([[variance,skewness,curtosis,entropy]])
 
+# Main Function
 def main():
     st.title("Bank Authenticator")
 
@@ -39,5 +40,6 @@ def main():
         st.text("Let's Learn")
         st.text("Build with Streamlit")
 
+# Main function calling...
 if __name__ == "__main__":
     main()
