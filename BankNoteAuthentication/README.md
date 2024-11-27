@@ -37,6 +37,7 @@ docker build -t money_api .
 ```bash
 docker run -p 5000:5000 money_api
 ```
+
 The application will be accessible at http://localhost:5000/apidocs.
 
 ### 3. Running Locally (Without Docker)
