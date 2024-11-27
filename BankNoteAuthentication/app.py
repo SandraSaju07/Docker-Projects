@@ -1,5 +1,5 @@
 # Import required libraries
-from flask import Flask,request
+from flask import Flask,request # type: ignore
 import pandas as pd 
 import numpy as np
 import pickle
@@ -77,4 +77,4 @@ def predict_file():
 
 # Run the app
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
