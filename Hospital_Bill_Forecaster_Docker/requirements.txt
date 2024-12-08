@@ -1,0 +1,6 @@
+pycaret>=1.0.0
+flask==1.1.1
+jinja2==3.0.3
+gunicorn==19.9.0
+certifi==2019.11.28
+itsdangerous==1.1.0
